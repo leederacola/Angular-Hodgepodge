@@ -8,12 +8,14 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HeaderComponent } from './Components/header/header.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { HomeComponent } from './Components/home/home.component';
+import { AboutComponent } from './Components/about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    HomeComponent
+    HomeComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
