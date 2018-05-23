@@ -9,13 +9,21 @@ import { HeaderComponent } from './Components/header/header.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { HomeComponent } from './Components/home/home.component';
 import { AboutComponent } from './Components/about/about.component';
+import { HouseComponent } from './Components/house/house.component';
+import { EventsComponent } from './Components/events/events.component';
+import { FutureComponent } from './Components/future/future.component';
+import { GroceriesComponent } from './Components/groceries/groceries.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    AboutComponent
+    AboutComponent,
+    HouseComponent,
+    EventsComponent,
+    FutureComponent,
+    GroceriesComponent
   ],
   imports: [
     BrowserModule,
