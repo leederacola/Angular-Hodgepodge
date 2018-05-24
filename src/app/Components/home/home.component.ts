@@ -9,9 +9,7 @@ import { Observable, Subject, asapScheduler, pipe, of, from, interval, merge, fr
 })
 
 
-class Task {
-  constructor(public title){}
-}
+
 export class HomeComponent implements OnInit {
 
   constructor() { }

@@ -20,7 +20,7 @@ import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AngularFireDatabase, AngularFireObject } from "angularfire2/database"; 
 import { environment } from '../environments/environment';
-import { AngularFirestore } from 'angularfire2/firestore';
+import { AngularFirestore, AngularFirestoreModule } from 'angularfire2/firestore';
 
 
 @NgModule({
@@ -43,11 +43,7 @@ import { AngularFirestore } from 'angularfire2/firestore';
     FormsModule,
     AngularFireModule.initializeApp(environment.firebase, 'ForReal'),
     AngularFireDatabaseModule,
-    AngularFirestore,
-    
-  
-
-    
+    AngularFirestoreModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
