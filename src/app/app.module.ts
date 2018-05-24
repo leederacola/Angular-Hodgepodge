@@ -18,7 +18,10 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
+import { AngularFireDatabase, AngularFireObject } from "angularfire2/database"; 
 import { environment } from '../environments/environment';
+import { AngularFirestore } from 'angularfire2/firestore';
+
 
 @NgModule({
   declarations: [
@@ -29,7 +32,8 @@ import { environment } from '../environments/environment';
     HouseComponent,
     EventsComponent,
     FutureComponent,
-    GroceriesComponent
+    GroceriesComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -38,7 +42,11 @@ import { environment } from '../environments/environment';
     RouterModule,
     FormsModule,
     AngularFireModule.initializeApp(environment.firebase, 'ForReal'),
-        AngularFireDatabaseModule
+    AngularFireDatabaseModule,
+    AngularFirestore,
+    
+  
+
     
   ],
   providers: [],
