@@ -1,11 +1,14 @@
+
 /* You can add global styles to this file, and also import other style files */
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
 @import 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css';
+
 .card{
     margin: 8px;
-
-    
+    box-shadow: 4px 8px 16px 4px rgba(0,0,0,0.5);
+    transition: 0.3s; 
 }
-.card:hover{
-    box-shadow: 2px 2px;
-    box-shadow: 10px 10px #dcdfe5;
+.card:hover {
+    box-shadow: 8px 16px 32px 8px rgba(0,0,0,0.5);
 }

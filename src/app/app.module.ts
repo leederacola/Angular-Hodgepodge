@@ -22,6 +22,10 @@ import { AngularFireDatabase, AngularFireObject } from "angularfire2/database";
 import { environment } from '../environments/environment';
 import { AngularFirestore, AngularFirestoreModule } from 'angularfire2/firestore';
 
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+
+import {MatButtonModule, MatCheckboxModule, MatToolbarModule, MatMenuModule, MatIconModule} from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -44,6 +48,14 @@ import { AngularFirestore, AngularFirestoreModule } from 'angularfire2/firestore
     AngularFireModule.initializeApp(environment.firebase, 'ForReal'),
     AngularFireDatabaseModule,
     AngularFirestoreModule,
+    BsDropdownModule.forRoot(),
+    BrowserAnimationsModule,
+    MatButtonModule,
+    MatCheckboxModule,
+    MatToolbarModule,
+    MatMenuModule,
+    MatIconModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
