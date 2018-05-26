@@ -14,6 +14,8 @@ import { EventsComponent } from './Components/events/events.component';
 import { FutureComponent } from './Components/future/future.component';
 import { GroceriesComponent } from './Components/groceries/groceries.component';
 
+import { HttpClientModule } from '@angular/common/http';
+
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AngularFireModule } from 'angularfire2';
