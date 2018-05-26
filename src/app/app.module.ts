@@ -29,6 +29,7 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 
 import {MatButtonModule, MatCheckboxModule, MatToolbarModule, MatMenuModule, MatIconModule} from '@angular/material';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,6 +40,7 @@ import {MatButtonModule, MatCheckboxModule, MatToolbarModule, MatMenuModule, Mat
     EventsComponent,
     FutureComponent,
     GroceriesComponent,
+    
 
   ],
   imports: [
@@ -57,6 +59,7 @@ import {MatButtonModule, MatCheckboxModule, MatToolbarModule, MatMenuModule, Mat
     MatToolbarModule,
     MatMenuModule,
     MatIconModule,
+    HttpClientModule
 
   ],
   providers: [],
