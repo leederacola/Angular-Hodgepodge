@@ -28,6 +28,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 
 import {MatButtonModule, MatCheckboxModule, MatToolbarModule, MatMenuModule, MatIconModule} from '@angular/material';
+import { ApiComponent } from './Components/api/api.component';
 
 
 @NgModule({
@@ -40,6 +41,7 @@ import {MatButtonModule, MatCheckboxModule, MatToolbarModule, MatMenuModule, Mat
     EventsComponent,
     FutureComponent,
     GroceriesComponent,
+    ApiComponent,
     
 
   ],
