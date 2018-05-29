@@ -8,6 +8,7 @@ import { EventsComponent } from './Components/events/events.component';
 import { GroceriesComponent } from './Components/groceries/groceries.component';
 import { FutureComponent } from './Components/future/future.component';
 import { HouseComponent } from './Components/house/house.component';
+import { ApiComponent } from './Components/api/api.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -16,7 +17,8 @@ const routes: Routes = [
   { path: 'events', component: EventsComponent },
   { path: 'groceries', component: GroceriesComponent },
   { path: 'future', component: FutureComponent },
-  { path: 'house', component: HouseComponent }
+  { path: 'house', component: HouseComponent },
+  { path: 'api', component: ApiComponent },
 ];
 
 
