@@ -29,6 +29,7 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 
 import {MatButtonModule, MatCheckboxModule, MatToolbarModule, MatMenuModule, MatIconModule} from '@angular/material';
 import { ApiComponent } from './Components/api/api.component';
+import { CalendarComponent } from './Components/calendar/calendar.component';
 
 
 @NgModule({
@@ -42,6 +43,7 @@ import { ApiComponent } from './Components/api/api.component';
     FutureComponent,
     GroceriesComponent,
     ApiComponent,
+    CalendarComponent,
     
 
   ],

@@ -11,10 +11,8 @@ export class ApiComponent  {
   public games: Game[];
 
 
-    constructor(http: Http, @Inject('BASE_URL') baseUrl: string) {
-        http.get(baseUrl + 'api/Games').subscribe(result => {
-            this.games = result.json() as Game[];
-        }, error => console.error(error));
+    constructor() {
+       
     }
 }
 
